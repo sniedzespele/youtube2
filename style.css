@@ -9,19 +9,20 @@ body{
     font-weight: 300;
     
 }
+
 .content {
     width: 100%;
     overflow: hidden;
     background-color: #F9F9F9;
-}
+    }
 li {
     display: block;
-  }
+    }
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+    }
   .header {
       display: flex;
       justify-content: space-between;
@@ -29,24 +30,24 @@ li {
       background-color: white;
       padding-top: 13px;
       padding-bottom: 6px;
-  }
+    }
  .top-menu-logo {
      margin-left: 26px;
- }
+    }
  .top-menu-logo li {
      display: inline;
- }
+    }
 
     .dropdown {
         margin-right: 28px;
         margin-bottom: 3px;
     
- }
+    }
  .search-input{
      display: flex;
      height: 30px;
      width: 574px;
- }
+    }
  .input1 {
     width: 574px;
     box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
@@ -54,13 +55,13 @@ li {
 border: 1px solid #CCCCCC;
 border-radius: 1px 0px 0px 1px;
 padding-left: 11px;
- }
+        }
 .search {
     display: flex;
     flex-direction: row;
     border-right: none;
    
-}
+        }
 
  #search-button {
      float: left;
@@ -69,25 +70,25 @@ padding-left: 11px;
      border: 1px solid #CCCCCC;
      border-radius: 1px 0px 0px 1px;
      transform: matrix(-1, 0, 0, 1, 0, 0);
- }
+        }
  .create{
     float: left;
     width: 33.3%;
     margin-top: 3px;
- }
+    }
  .bell, .apps {
      float: left;
      width: 33.3%;
- }
+            }
  .right-top-menu-section{
      margin-right: 28px;
     width: 120px;
- }
+        }
  .capitalize {
     text-transform: uppercase;
     margin: 24px 20px 0px 26px;
     position: relative;
-}
+        }
 hr {
   color: #E5E5E5;
   margin-top: 24px;
@@ -98,33 +99,34 @@ hr {
     width: 240px;
     float: left;
     background-color: white 
-}
+    }
 .home, .trending, .library,
 .subscriptions, .history, .your-videos,
 .watch-later, .liked-videos, .youtube-premium,
 .gaming, .live, .settings, .report-history,
 .help, .send-feedback, .show-more
-{
+    {
 margin: 24px 20px 0px 26px;
 position: relative;
-
-}
+    }
 
 
 .bottom{
-    width: 240px;
-    padding-left: 26px;
-    
-    font-weight: 500;
-font-size: 12px;
-line-height: 14px;
-background-color: white;
-}
+    margin-top: 21px;
+    margin-left: 26px;
+    margin-right: 34px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+   
+    }
 
 .bottom a:link{
         text-decoration: none;
         color: #727272;
-      }
+        margin-right: 8px;
+        }
       
       .bottom   a:visited {
         text-decoration: none;
@@ -139,38 +141,32 @@ background-color: white;
         text-decoration: none;
         fill: #f00;
         
-      }
+                }
 .side-menu a:link{
     text-decoration: none;
-}
+        }
 .side-menu a:visited {
     text-decoration: none;
     color: #606060;
-}
+        }
 
- 
 .side-menu  a:hover {
     text-decoration: none;
-  }
+        }
   
   .side-menu a:active {
     text-decoration: none;
-    
-  }
+        }
   .side-menu a:focus {
     color: red;
   }
   #home:focus{
       color: red;
-  }
+        }
   .side-menu a:active svg,
 .header-container a:active svg {
   fill: #f00;
-}
-.videos{
-    background-color: sandybrown;
-    
-    float: right;
-    display: flex;
-    margin-left: 300px;
-}
+    }
+.google{
+    color: rgba(0, 0, 0, 0.5);
+    }
