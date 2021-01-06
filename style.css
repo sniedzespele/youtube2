@@ -37,9 +37,8 @@ li {
  .top-menu-logo li {
      display: inline;
     }
-
     .dropdown {
-        margin-right: 28px;
+        margin-right: 10px;
         margin-bottom: 3px;
     
     }
@@ -52,9 +51,9 @@ li {
     width: 574px;
     box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
     background: #FFFFFF;
-border: 1px solid #CCCCCC;
-border-radius: 1px 0px 0px 1px;
-padding-left: 11px;
+  border: 1px solid #CCCCCC;
+  border-radius: 1px 0px 0px 1px;
+  padding-left: 11px;
         }
 .search {
     display: flex;
@@ -91,11 +90,10 @@ padding-left: 11px;
         }
 hr {
   color: #E5E5E5;
-
-}
+ }
 hr:hover{
   text-decoration: none;
-}
+  }
 
 
 .side-menu {
@@ -109,9 +107,9 @@ hr:hover{
 .gaming, .live, .settings, .report-history,
 .help, .send-feedback, .show-more
     {
-padding-right: 12px;
-padding-left: 26px;
-position: relative;
+  padding-right: 12px;
+  padding-left: 26px;
+  position: relative;
     }
 
 .side-menu li {
@@ -124,8 +122,6 @@ position: relative;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-
-   
     }
 
 .bottom a:link{
@@ -230,4 +226,9 @@ padding: 0px;
   margin: auto;
 padding: 0px;
 
+}
+@media only screen and (max-width: 600px) {
+  .side-menu {
+    font-size: 11px;
+  }
 }

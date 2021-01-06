@@ -1,18 +1,12 @@
 
-  document.querySelector(".dropdown").addEventListener("click", function () {
-    document.querySelector(".side-menu").classList.add("active");
-  
-    //Pievieno klasi
-    this.classList.add("active");
-  
-    //Noņem klasi
+
+document.querySelector(".dropdown").addEventListener("click", function () {
+  document.querySelector('.side-menu').classList.add("active");
+  if (this.classList.contains("active")) {
     this.classList.remove("active");
-  
-    //pārbaudam vai satur klasi
-    if (this.classList.contains("active")) {
-      //izspildās ja patiess
-    } else {
-      //izpildās citā gadījumā
-    }
-  });
-    
+  } else {
+    this.classList.add("active");
+  }
+});
+
+//dropdown pieliek un noņem klasi active, bet side menu tikai pieliek.
