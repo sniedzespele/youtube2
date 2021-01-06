@@ -86,12 +86,15 @@ padding-left: 11px;
         }
  .capitalize {
     text-transform: uppercase;
-    margin: 24px 20px 0px 26px;
+    margin: 24px 20px 24px 26px;
     position: relative;
         }
 hr {
   color: #E5E5E5;
-  margin-top: 24px;
+
+}
+hr:hover{
+  text-decoration: none;
 }
 
 
@@ -106,11 +109,14 @@ hr {
 .gaming, .live, .settings, .report-history,
 .help, .send-feedback, .show-more
     {
-margin: 24px 20px 0px 26px;
+padding-right: 12px;
+padding-left: 26px;
 position: relative;
     }
 
-
+.side-menu li {
+  padding: 12px 0px 12px 0px ;
+}
 .bottom{
     margin-top: 21px;
     margin-left: 26px;
@@ -152,8 +158,11 @@ position: relative;
 
 .side-menu  a:hover {
     text-decoration: none;
+    
         }
-  
+  .side-menu li:hover{
+    background: rgba(0, 0, 0, 0.05);
+  }
   .side-menu a:active {
     text-decoration: none;
         }
@@ -170,3 +179,55 @@ position: relative;
 .google{
     color: rgba(0, 0, 0, 0.5);
     }
+    
+.side-menu.active {
+  width: 8em;
+  font-size: 11px;
+  line-height: 16px;
+  color: #606060;
+  font-weight: 300;
+  text-align: center;
+}
+.side-menu.active .hide {
+  display: none;
+}
+/* nesaprotu kāpēc liekot klāt jaunas klases aiz .home atdalot ar komatu, nobrūk stils, bet liekot atsevišķi - viss strādā */
+.side-menu.active .home {
+  display: block;
+  margin: auto;
+padding: 0px;
+}
+
+.side-menu.active .trending {
+  display: block;
+  margin: auto;
+padding: 0px;
+}
+.side-menu.active .subscriptions {
+  display: block;
+  margin: auto;
+padding: 0px;
+}
+.side-menu.active .library {
+  display: block;
+  margin: auto;
+padding: 0px;
+}
+.side-menu.active .history {
+  display: block;
+  margin: auto;
+padding: 0px;
+}
+
+.side-menu.active .capitalize {
+  display: none;
+}
+.side-menu.active .bottom {
+  display: none;
+}
+.side-menu.active span {
+  display: block;
+  margin: auto;
+padding: 0px;
+
+}
