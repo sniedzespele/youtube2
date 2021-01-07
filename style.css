@@ -7,9 +7,7 @@ body{
     line-height: 16px;
     color: #606060;
     font-weight: 300;
-    
 }
-
 .content {
     width: 100%;
     overflow: hidden;
@@ -44,11 +42,9 @@ li {
     }
  .search-input{
      display: flex;
-     height: 30px;
-     width: 574px;
     }
  .input1 {
-    width: 574px;
+    width: 30vw;
     box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
     background: #FFFFFF;
   border: 1px solid #CCCCCC;
@@ -115,6 +111,7 @@ hr:hover{
 .side-menu li {
   padding: 12px 0px 12px 0px ;
 }
+
 .bottom{
     margin-top: 21px;
     margin-left: 26px;
@@ -161,13 +158,12 @@ hr:hover{
   }
   .side-menu a:active {
     text-decoration: none;
+  
         }
   .side-menu a:focus {
     color: red;
   }
-  #home:focus{
-      color: red;
-        }
+ 
   .side-menu a:active svg,
 .header-container a:active svg {
   fill: #f00;
@@ -228,5 +224,32 @@ padding: 0px;
 
 }
 @media only screen and (max-width: 1000px) {
-  
+  .input1{
+    width: 200px;
+  }
+  #search-button{
+    width: 35px;
+    height: auto;
+  }
+  .dropdown{
+    margin-right: 5px;
+  }
+  .youtube-logo{
+    width: 58px;
+    height: auto;
+    fill: none;
+  }
+  .side-menu{
+    width: 150px;
+  }
+  body{
+    font-family: Roboto;
+    margin: 0px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #606060;
+    font-weight: 300;
+    
 }
+}
+
